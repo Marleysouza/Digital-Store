@@ -1,11 +1,11 @@
+import Section from "../components/Section"
 import Layout from "./Layout"
 
 const HomePage = () => {
     return (
         <Layout>
-            <main>
-                HomePage
-            </main>
+            <Section tilte={"Produtos em alta"} titleAling={"left"} link={"#"}>
+            </Section>
         </Layout>
     )
 }

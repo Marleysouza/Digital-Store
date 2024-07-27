@@ -1,0 +1,29 @@
+#secao {
+    padding: 34px 7.2222222%;
+}
+
+#secao-t-l {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#secao-t-l h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+
+#secao-t-l a {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+}
