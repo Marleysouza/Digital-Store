@@ -1,16 +1,23 @@
 /* Footer content*/
-.rodape{
+.rodape {
     background-color: var(--dark-gray);
     color: white;
     padding: 34px 7.2222222%;
 }
 
-#rodape-content{
+.rodape p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--light-gray-2);
+}
+
+#rodape-content {
     display: flex;
     justify-content: space-between;
 }
 
-#rodape-logo-desc{
+#rodape-logo-desc {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -18,16 +25,21 @@
     width: 308px;
 }
 
+#rodape-logo-desc div {
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+}
 
 /* info */
-#rodape-info{
+#rodape-info {
     width: 800px;
     justify-content: space-evenly;
     display: flex;
     gap: 20px;
 }
 
-#rodape-info div{
+#rodape-info div {
     max-width: 230px;
     display: flex;
     flex-direction: column;
@@ -36,17 +48,18 @@
     padding-block: 40px;
 }
 
-#rodape-info a{
-    color: var(--white);
+#rodape-info a {
+    color: var(--light-gray-2);
     text-decoration: none;
 }
 
-#rodape-info h3{
+#rodape-info h3 {
     margin-bottom: 20px;
 }
 
-#dir-aut{
+#dir-aut {
     display: block;
     text-align: center;
     padding-top: 34px;
+    color: var(--light-gray-2);
 }
