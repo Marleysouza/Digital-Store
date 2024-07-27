@@ -1,10 +1,10 @@
-import Logo from "./components/Logo"
+import HomePage from "./pages/HomePage"
 
 function App() {
 
   return (
     <>
-      <Logo color={"var(--primary)"} sizeicon={"33px"} />
+      <HomePage />
     </>
   )
 }
