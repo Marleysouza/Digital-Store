@@ -18,8 +18,8 @@ const Footer = () => {
                 </div>
                 <div id="rodape-info">
                     <Info title={"informações"} informations={informacoes} />
-                    <Info title={"informações"} informations={categorias} />
-                    <Info title={"informações"} informations={contatos} />
+                    <Info title={"Categorias"} informations={categorias} />
+                    <Info title={"Contato"} informations={contatos} />
                 </div>
             </div>
             <hr />
