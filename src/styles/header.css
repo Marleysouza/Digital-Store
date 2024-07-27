@@ -1,8 +1,9 @@
+/* estilo do component Logo */
 #logo {
-    width: 253px;
     gap: 2%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 #logo h1 {
@@ -10,4 +11,192 @@
     font-size: 36.4px;
     line-height: 44.05px;
     letter-spacing: -1px;
+}
+
+/* Fim style component Logo */
+
+/* Header content*/
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 40px;
+    padding: 34px 7.2222222%;
+}
+
+/* NavBar top */
+#navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* estilos da Barra de pesquisa */
+#searchbar {
+    display: flex;
+    width: 559px;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    gap: 4px;
+}
+
+#searchbar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-gray-2);
+    border-radius: 8px;
+    opacity: 4%;
+}
+
+#searchinput {
+    width: 100%;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    background-color: #00000000;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    opacity: 60%;
+}
+
+#searchbtn {
+    border: none;
+    background-color: #00000000;
+    cursor: pointer;
+    margin-right: 16px;
+    z-index: 1;
+    opacity: 50%;
+}
+
+
+/* estilos dos links de cadastro e login */
+#cad-log {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+#cad,
+#cad-mob {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75;
+    color: var(--dark-gray-2);
+}
+
+#log,
+#log-mob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--light-gray-3);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+#log:hover,
+#log-mob:hover {
+    background-color: var(--light-gray-3);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+/* estilos do carrinho de compras */
+
+#buycart-contain {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+#buycart-contain span {
+    right: -8px;
+    top: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    background-color: var(--error);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* estilos do component  NavBar */
+
+/* area de login e cadastro mobile */
+#cad-log-mob {
+    display: none;
+}
+
+/* links navbar*/
+
+#navlinks {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.link-nav {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+    transition: 0.2s;
+    position: relative;
+    height: 30px;
+}
+
+.link-nav:hover {
+    color: var(--primary);
+}
+
+.link-nav::after {
+    content: "";
+    position: absolute;
+    background-color: var(--primary);
+    height: 2px;
+    border-radius: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.2s;
+    transform: scaleX(0);
+}
+
+.link-nav:hover::after {
+    transform: scaleX(1);
+}
+
+.link-nav.active {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.link-nav.active:after {
+    transform: scaleX(1);
 }
