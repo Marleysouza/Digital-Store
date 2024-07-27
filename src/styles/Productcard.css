@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-bottom: 40px;
 }
 
 #productcard img{
     border-radius: 10px;
-    width: 292px;
-    height: 321px;
+    width: 280px;
+    height: 300px;
 }
 
 #productcard-price{

@@ -6,7 +6,7 @@ const ProductListing = ({ qtd }) => {
     let Product = Produtos.slice(0, qtd);
 
     return (
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", paddingBlock: "40px", gap: "40px" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between",paddingBlock:"40px" }}>
             {Product.map((pdt, index) => (
                 <div key={index}>
                     <ProductCard image={pdt.image} name={pdt.name} price={pdt.price} priceDiscount={pdt.priceDiscount} />
