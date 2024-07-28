@@ -5,6 +5,7 @@ import Cadastro from './pages/Cadastro.jsx';
 import Login from './pages/Login.jsx';
 import Categorias from './pages/Categorias.jsx';
 import MeusPedidos from './pages/MeusPedidos.jsx';
+import ProductViewPage from './pages/ProductViewPage.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/Produtos" element={<ProductListingPage />} />
+        <Route path="/Produtos/:id" element={<ProductViewPage />} />
         <Route path="/Categorias" element={<Categorias />} />
         <Route path="/MeusPedidos" element={<MeusPedidos />} />
       </Routes>
