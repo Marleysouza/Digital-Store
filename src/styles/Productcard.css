@@ -1,17 +1,21 @@
-#productcard{
+#productcard {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-bottom: 40px;
 }
 
-#productcard img{
+#productcard h1 {
+    color: var(--dark-gray);
+}
+
+#productcard img {
     border-radius: 10px;
     width: 280px;
     height: 300px;
 }
 
-#productcard-price{
+#productcard-price {
     display: flex;
     gap: 4px;
     color: var(--dark-gray);

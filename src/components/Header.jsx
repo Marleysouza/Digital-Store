@@ -1,12 +1,13 @@
 import Logo from "./Logo"
 import buycart from '../assents/svg/BuyCart.svg'
 import NavBar from "./NavBar"
+import { NavLink } from "react-router-dom"
 
 const Header = () => {
     return (
         <header className="cabecalho">
             <div id="navtop">
-                <Logo color={"var(--primary)"} sizeicon={"33px"} sizecontain={"253px"} />
+                <Logo color={"var(--primary)"} sizeicon={"33px"} sizecontent={"253px"} />
                 <form id="searchbar">
                     <input id="searchinput" placeholder="Pesquisar Produto..."></input>
                     <button id="searchbtn">
@@ -17,8 +18,8 @@ const Header = () => {
                     </button>
                 </form>
                 <div id="cad-log">
-                    <a id="cad" href="#">Cadastre-se</a>
-                    <a id="log" href="#">Entrar</a>
+                    <NavLink id="cad" to="/cadastro">Cadastre-se</NavLink>
+                    <NavLink id="log" to="/login">Entrar</NavLink>
                 </div>
                 <div id="buycart-contain">
                     <img src={buycart}></img>
