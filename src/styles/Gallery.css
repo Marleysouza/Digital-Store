@@ -1,5 +1,6 @@
 #gallery {
-    padding: 34px 7.2222222%;
+    padding-block: 34px;
+    padding-inline: 50px;
 }
 
 #slides {
@@ -12,7 +13,7 @@
     min-width: 100%;
 }
 
-.slide img{
+.slide img {
     width: 100%;
     border-radius: 8px;
 }

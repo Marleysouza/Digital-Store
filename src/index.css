@@ -8,6 +8,10 @@
     font-family: "Inter", sans-serif;
 }
 
+body {
+    background-image: linear-gradient(160deg, #B5B6F2, #EFEFFF);
+}
+
 :root {
 
     --primary: #C92071;
