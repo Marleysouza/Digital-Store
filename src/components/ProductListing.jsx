@@ -8,7 +8,7 @@ const ProductListing = ({ Produtos, qtd }) => {
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between",gap:"20px"}}>
             {Product.map((pdt, index) => (
                 <a href={"/Produtos/" + pdt.id} key={index} style={{ textDecoration: "none",marginBottom:"40px" }}>
-                    <ProductCard image={pdt.image} name={pdt.name} price={pdt.price} priceDiscount={pdt.priceDiscount} />
+                    <ProductCard image={pdt.image[0].image} name={pdt.name} price={pdt.price} priceDiscount={pdt.priceDiscount} />
                 </a>
             ))}
         </div>

@@ -1,13 +1,13 @@
 import ProductOptions from "./ProductOptions";
 
-const BuyBox = ({product}) => {
+const BuyBox = ({ product }) => {
 
 
     if (!product) {
         return <h2>Produto não encontrado</h2>;
     }
 
-    const Star = ({qtd}) => {
+    const Star = ({ qtd }) => {
         const star = [];
         let cstr = "var(--warning)";
         for (let i = 0; i < qtd; i++) {
@@ -39,8 +39,8 @@ const BuyBox = ({product}) => {
                 </div>
             </div>
             <div className="preco">
-                <span className="preco-desc"><span id="rs">R$</span>{product.preco}<span></span></span>
-                <span className="preco-orig">{product.preco}</span>
+                <span className="preco-desc"><span id="rs">R$</span>{product.priceDiscount}</span>
+                <span className="preco-orig">{product.price}</span>
             </div>
             <div className="product-desc">Descrição do produto
                 <p>{product.descricao}</p>

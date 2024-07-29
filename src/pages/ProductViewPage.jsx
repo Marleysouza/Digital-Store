@@ -1,7 +1,8 @@
-import Layout from './Layout.jsx'
-import BuyBox from '../components/BuyBox'
-import { Produtos } from '../data/produtos.js'
-import { slide } from '../data/slide.js'
+import Layout from './Layout.jsx';
+import BuyBox from '../components/BuyBox.jsx';
+import Section from '../components/Section.jsx';
+import ProductListing from '../components/ProductListing.jsx';
+import { Produtos } from '../data/produtos.js';
 import { useParams } from 'react-router-dom';
 import Gallery from '../components/Gallery.jsx';
 
@@ -11,9 +12,12 @@ const ProductViewPage = () => {
     return (
         <Layout>
             <main style={{ display: "flex", justifyContent: "space-between" }}>
-                <Gallery slide={slide} showThumbs={true} largura={"700px"} />
+                <Gallery slide={product.image} showThumbs={true} width={"55vw"} height={"38vw"}/>
                 <BuyBox product={product} />
             </main>
+            <Section tilte={"Relacionados"} titleAling={"left"} link={"/Produtos"}>
+                <ProductListing Produtos={Produtos} qtd={4} />
+            </Section>
         </Layout>
     )
 }

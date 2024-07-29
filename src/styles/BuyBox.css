@@ -1,9 +1,13 @@
 #BuyBox {
-    width: 35.8vw;
-    height: 39.584vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-block: 34px;
+    margin-right: 50px;
+    padding-inline: 25px;
+    padding-block: 17px;
+    background-color: var(--white);
+    border-radius: 8px;
 }
 
 #BuyBox h1 {
@@ -150,6 +154,7 @@
     line-height: 24px;
     letter-spacing: 0.75px;
     color: var(--dark-gray-2);
+    background-color: var(--white);
     cursor: pointer;
 }
 

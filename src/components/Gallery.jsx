@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Gallery = ({ slide, showThumbs, largura, text, link }) => {
+const Gallery = ({ slide, showThumbs, width, height, text, link }) => {
     return (
-        <div id="gallery" style={{ width: largura }}>
+        <div id="gallery" style={{ width: width }}>
             <div id="slides">
                 {slide.map((image, index) => (
-                    <div key={index} className="slide">
-                        <img src={image.image} />
+                    <div key={index} className="slide" >
+                        <img src={image.image} style={{ height: height }} />
                         {text && (
                             <div>
                                 <h1>{text}</h1>

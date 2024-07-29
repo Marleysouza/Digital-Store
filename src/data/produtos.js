@@ -2,7 +2,13 @@ export const Produtos = [
     {
         id: 1,
         name: "Nome do produto 1",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A2.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A3.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A4.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A5.jpg" }
+        ],
         price: 200,
         priceDiscount: 149.9,
         tamanho: [39, 40, 41, 42, 43],
@@ -16,7 +22,13 @@ export const Produtos = [
     {
         id: 2,
         name: "Nome do produto 2",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/028684CTA13.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028684CTA11.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028684CTA2.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028684CTA3.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028684CTA4.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -29,7 +41,13 @@ export const Produtos = [
     {
         id: 3,
         name: "Nome do produto 3",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA10.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA2.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA3.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA4.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA6.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -42,7 +60,13 @@ export const Produtos = [
     {
         id: 4,
         name: "Nome do produto 4",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA8.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA1.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA2.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA3.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA4.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -55,7 +79,13 @@ export const Produtos = [
     {
         id: 5,
         name: "Nome do produto 5",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -68,7 +98,13 @@ export const Produtos = [
     {
         id: 6,
         name: "Nome do produto 6",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -81,7 +117,13 @@ export const Produtos = [
     {
         id: 7,
         name: "Nome do produto 7",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -94,7 +136,13 @@ export const Produtos = [
     {
         id: 8,
         name: "Nome do produto 8",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -107,7 +155,13 @@ export const Produtos = [
     {
         id: 9,
         name: "Nome do produto 9",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -120,7 +174,13 @@ export const Produtos = [
     {
         id: 10,
         name: "Nome do produto 10",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -133,7 +193,13 @@ export const Produtos = [
     {
         id: 11,
         name: "Nome do produto 11",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -146,7 +212,13 @@ export const Produtos = [
     {
         id: 12,
         name: "Nome do produto 12",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -159,7 +231,13 @@ export const Produtos = [
     {
         id: 13,
         name: "Nome do produto 13",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -172,7 +250,13 @@ export const Produtos = [
     {
         id: 14,
         name: "Nome do produto 14",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -185,7 +269,13 @@ export const Produtos = [
     {
         id: 15,
         name: "Nome do produto 15",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -198,7 +288,13 @@ export const Produtos = [
     {
         id: 16,
         name: "Nome do produto 16",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -211,7 +307,13 @@ export const Produtos = [
     {
         id: 17,
         name: "Nome do produto 17",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -224,7 +326,13 @@ export const Produtos = [
     {
         id: 18,
         name: "Nome do produto 18",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -237,7 +345,13 @@ export const Produtos = [
     {
         id: 19,
         name: "Nome do produto 19",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
@@ -250,7 +364,13 @@ export const Produtos = [
     {
         id: 20,
         name: "Nome do produto 20",
-        image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg",
+        image: [
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" },
+            { image: "https://imgnike-a.akamaihd.net/768x768/02733551A9.jpg" }
+        ],
         price: 49.9,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
