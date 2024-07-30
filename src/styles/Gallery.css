@@ -3,19 +3,45 @@
     padding-inline: 50px;
 }
 
+#slides-content {
+    position: relative;
+}
+
 #slides {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+#prev,
+#next {
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#prev {
+    top: 0;
+    left: 0;
+}
+
+#next {
+    top: 0;
+    right: 0;
 }
 
 .slide {
     min-width: 100%;
+    scroll-snap-align: center;
 }
 
 .slide img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #thumbnails {
@@ -25,6 +51,7 @@
 }
 
 .thumbnail {
+    cursor: pointer;
     width: 117px;
     height: 95px;
     margin: 0 5px;

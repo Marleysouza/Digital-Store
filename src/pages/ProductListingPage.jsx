@@ -20,8 +20,6 @@ const ProductListingPage = () => {
                     <div>
                         <span>Filtrar por</span>
                         <FilterGroup />
-                        <FilterGroup />
-                        <FilterGroup />
                     </div>
                 </div>
                 <Section>

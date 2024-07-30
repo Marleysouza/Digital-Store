@@ -15,7 +15,7 @@ const ProductViewPage = () => {
                 <Gallery slide={product.image} showThumbs={true} width={"55vw"} height={"38vw"}/>
                 <BuyBox product={product} />
             </main>
-            <Section tilte={"Relacionados"} titleAling={"left"} link={"/Produtos"}>
+            <Section tilte={"Produtos recomendados"} titleAling={"left"} link={"/Produtos"}>
                 <ProductListing Produtos={Produtos} qtd={4} />
             </Section>
         </Layout>
