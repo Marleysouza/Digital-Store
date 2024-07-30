@@ -26,7 +26,7 @@ const BuyBox = ({ product }) => {
     return (
         <div id="BuyBox">
             <div>
-                <h1>{product.nome}</h1>
+                <h1>{product.name}</h1>
                 <h2>{product.genero} | {product.marca} | REF:{product.id}</h2>
             </div>
             <div className="avaliacoes">
