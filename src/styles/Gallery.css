@@ -12,7 +12,22 @@
     overflow: auto;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
+
+.slide {
+    min-width: 100%;
+}
+
+#slides .active {
+    scroll-snap-align: center;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 4px;
+}
+
 
 #prev,
 #next {
@@ -34,16 +49,6 @@
     right: 0;
 }
 
-.slide {
-    min-width: 100%;
-    scroll-snap-align: center;
-}
-
-.slide img {
-    width: 100%;
-    border-radius: 4px;
-}
-
 #thumbnails {
     display: flex;
     justify-content: space-between;
@@ -55,6 +60,10 @@
     width: 117px;
     height: 95px;
     margin: 0 5px;
+}
+
+#thumbnails .active {
+    opacity: 50%;
 }
 
 .thumbnail img {
