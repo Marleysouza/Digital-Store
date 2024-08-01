@@ -9,18 +9,12 @@
 
 #slides {
     display: flex;
-    overflow: auto;
-    scrollbar-width: none;
-    scroll-snap-type: x mandatory;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
 .slide {
     min-width: 100%;
-}
-
-#slides .active {
-    scroll-snap-align: center;
 }
 
 .slide img {

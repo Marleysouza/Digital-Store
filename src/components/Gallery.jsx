@@ -1,26 +1,40 @@
-import React from 'react';
-import left from '../assents/svg/arrow-left.svg'
-import right from '../assents/svg/arrow-right.svg'
-import { useState } from 'react';
+import left from '../assents/svg/arrow-left.svg';
+import right from '../assents/svg/arrow-right.svg';
+import React, { useRef, useEffect, useState } from 'react';
 
 const Gallery = ({ slide, showThumbs, width, height, text, link }) => {
-
-    const [indiceAtual, setIndiceAtual] = useState(0);
+    const scrollRef = useRef(0);
+    const [cont, setCont] = useState(0);
 
     const proximaImagem = () => {
-        setIndiceAtual((indiceAtual + 1) % slide.length);
+        const newCont = cont + scrollRef.current.offsetWidth > scrollRef.current.scrollLeftMax ? 0 : cont + scrollRef.current.offsetWidth;
+        setCont(newCont);
+        scrollRef.current.scrollLeft = newCont;
     };
 
     const imagemAnterior = () => {
-        setIndiceAtual((indiceAtual - 1 + slide.length) % slide.length);
+        const newCont = cont - scrollRef.current.offsetWidth < 0 ? scrollRef.current.scrollLeftMax : cont - scrollRef.current.offsetWidth;
+        setCont(newCont);
+        scrollRef.current.scrollLeft = newCont;
     };
+
+    const irParaImagem = (index) => {
+        const newCont = index * scrollRef.current.offsetWidth;
+        setCont(newCont);
+        scrollRef.current.scrollLeft = newCont;
+    };
+
+    useEffect(() => {
+        const interval = setInterval(proximaImagem, 3000);
+        return () => clearInterval(interval);
+    }, [cont]);
 
     return (
         <div id="gallery" style={{ width: width }}>
             <div id='slides-content'>
-                <div id="slides">
+                <div id="slides" ref={scrollRef}>
                     {slide.map((image, index) => (
-                        <div key={index} className={`slide ${index === indiceAtual ? 'active' : ''}`} >
+                        <div key={index} className="slide">
                             <img src={image.image} style={{ height: height }} />
                             {text && (
                                 <div>
@@ -37,7 +51,7 @@ const Gallery = ({ slide, showThumbs, width, height, text, link }) => {
             {showThumbs && (
                 <div id="thumbnails">
                     {slide.map((image, index) => (
-                        <div key={index} className={`thumbnail ${index === indiceAtual ? 'active' : ''}`} onClick={() => setIndiceAtual(index)}>
+                        <div key={index} className={`thumbnail ${index === cont / scrollRef.current.offsetWidth ? 'active' : ''}`} onClick={() => irParaImagem(index)}>
                             <img src={image.image} />
                         </div>
                     ))}
