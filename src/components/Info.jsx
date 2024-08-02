@@ -3,7 +3,7 @@ const Info = ({ title, informations }) => {
         <div>
             <h3>{title}</h3>
             {informations.map((info, index) => (
-                <a href={info.link} key={index}>{info.text}</a>
+                <a href={info.link} key={index} target="_blank" rel="noopener noreferrer">{info.text}</a>
             ))}
         </div>
     )

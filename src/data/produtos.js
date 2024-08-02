@@ -10,7 +10,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/02733551A5.jpg" }
         ],
         price: 200,
-        priceDiscount: 149.9,
+        priceDiscount: 149.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -48,7 +48,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA4.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/024606IDA6.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -67,7 +67,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA3.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/028733CTA4.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -86,7 +86,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/023430DDA4.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/023430DDA5.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -105,7 +105,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/026048DDA4.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/026048DDA5.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -124,7 +124,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/028796CTA4.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/028796CTA5.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -143,7 +143,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/03114951A5.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/03114951A6.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -162,7 +162,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/030242NDA5.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/030242NDA6.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -181,7 +181,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/029893P1A6.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/029893P1A11.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -200,7 +200,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/0293113XA3.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/0293113XA4.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
@@ -219,7 +219,7 @@ export const Produtos = [
             { image: "https://imgnike-a.akamaihd.net/768x768/02931051A3.jpg" },
             { image: "https://imgnike-a.akamaihd.net/768x768/02931051A4.jpg" }
         ],
-        price: 49.9,
+        price: 49.99,
         tamanho: [39, 40, 41, 42, 43],
         cor: ["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"],
         star: 5,
