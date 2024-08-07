@@ -7,13 +7,13 @@ const Gallery = ({ slide, showThumbs, width, height, text, link }) => {
     const [cont, setCont] = useState(0);
 
     const proximaImagem = () => {
-        const newCont = cont + scrollRef.current.offsetWidth > scrollRef.current.scrollLeftMax ? 0 : cont + scrollRef.current.offsetWidth;
+        const newCont = cont + scrollRef.current.offsetWidth > scrollRef.current.offsetWidth * (slide.length - 1) ? 0 : cont + scrollRef.current.offsetWidth;
         setCont(newCont);
         scrollRef.current.scrollLeft = newCont;
     };
 
     const imagemAnterior = () => {
-        const newCont = cont - scrollRef.current.offsetWidth < 0 ? scrollRef.current.scrollLeftMax : cont - scrollRef.current.offsetWidth;
+        const newCont = cont - scrollRef.current.offsetWidth < 0 ? scrollRef.current.offsetWidth * (slide.length - 1) : cont - scrollRef.current.offsetWidth;
         setCont(newCont);
         scrollRef.current.scrollLeft = newCont;
     };
