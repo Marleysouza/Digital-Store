@@ -11,8 +11,8 @@ const ProductViewPage = () => {
     const product = Produtos.find(p => p.id === parseInt(id));
     return (
         <Layout>
-            <main style={{ display: "flex", justifyContent: "space-between" }}>
-                <Gallery slide={product.image} showThumbs={true} width={"55vw"} height={"38vw"}/>
+            <main style={{ display: "flex", marginBlock: " 34px", marginInline: "50px", gap: "34px" }}>
+                <Gallery slide={product.image} showThumbs={true} width={"55vw"} height={"38vw"} />
                 <BuyBox product={product} />
             </main>
             <Section tilte={"Produtos recomendados"} titleAling={"left"} link={"/Produtos"}>
